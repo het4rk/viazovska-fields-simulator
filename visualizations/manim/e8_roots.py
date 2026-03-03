@@ -257,8 +257,7 @@ class PackingDensityCurve(Scene):
             y_range=[-14, 1, 2],
             x_length=10,
             y_length=5,
-            axis_config={"include_numbers": True, "font_size": 18},
-            x_axis_config={"numbers_to_include": [1, 2, 3, 8, 12, 16, 24]},
+            axis_config={"include_numbers": False},
         ).shift(DOWN * 0.5)
 
         x_label = Text("Dimension", font_size=20).next_to(axes.x_axis, DOWN)

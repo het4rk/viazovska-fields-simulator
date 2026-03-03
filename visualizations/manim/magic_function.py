@@ -39,7 +39,7 @@ class MagicFunctionProfile(Scene):
             y_range=[-0.15, 1.1, 0.25],
             x_length=10,
             y_length=4.5,
-            axis_config={"include_numbers": True, "font_size": 16},
+            axis_config={"include_numbers": False},
         ).shift(DOWN * 0.5)
 
         x_label = Text("r (radius)", font_size=18).next_to(axes.x_axis, DOWN, buff=0.3)
@@ -127,7 +127,7 @@ class MagicFunctionComparison(Scene):
             y_range=[-0.2, 1.1, 0.25],
             x_length=10,
             y_length=4.5,
-            axis_config={"include_numbers": True, "font_size": 16},
+            axis_config={"include_numbers": False},
         ).shift(DOWN * 0.5)
 
         x_label = Text("r", font_size=18).next_to(axes.x_axis, DOWN, buff=0.3)
